@@ -13,7 +13,7 @@ export const NAV_LINKS = [
     label: "Services",
     path: "/services",
   },
-  {
+  { 
     label: "Contact",
     path: "/contact",
   },
