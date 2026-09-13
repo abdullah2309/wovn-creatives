@@ -1,0 +1,28 @@
+.page {
+  padding: 100px 0;
+}
+
+.container {
+  width: min(900px, 92%);
+  margin: 0 auto;
+}
+
+.label {
+  color: #6c5ce7;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.container h1 {
+  margin: 20px 0;
+  font-size: clamp(40px, 6vw, 70px);
+  line-height: 1.05;
+  letter-spacing: -3px;
+}
+
+.container p {
+  color: #666666;
+  font-size: 19px;
+  line-height: 1.8;
+}

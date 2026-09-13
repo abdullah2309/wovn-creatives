@@ -1,0 +1,89 @@
+.page {
+  padding: 100px 0;
+}
+
+.container {
+  width: min(1100px, 92%);
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+}
+
+.content span {
+  color: #6c5ce7;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.content h1 {
+  margin: 20px 0;
+  font-size: clamp(45px, 6vw, 70px);
+  line-height: 1;
+  letter-spacing: -3px;
+}
+
+.content p {
+  color: #666666;
+  line-height: 1.7;
+  font-size: 17px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px;
+
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+
+  outline: none;
+  font-family: inherit;
+  font-size: 15px;
+
+  transition: 0.2s ease;
+}
+
+.form input:focus,
+.form textarea:focus {
+  border-color: #6c5ce7;
+}
+
+.form textarea {
+  resize: vertical;
+}
+
+.form button {
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+
+  background: #111111;
+  color: white;
+
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+.form button:hover {
+  background: #6c5ce7;
+}
+
+@media (max-width: 800px) {
+  .container {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+}
