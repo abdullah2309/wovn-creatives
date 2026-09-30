@@ -2,7 +2,7 @@
 
 This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
-two official plugins are-
+two official plugins
 
 ## React Compiler
 
