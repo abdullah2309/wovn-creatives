@@ -5,7 +5,6 @@ function About() {
     <section className={styles.page}>
       <div className={styles.container}>
         <span className={styles.label}>ABOUT US</span>
-
         <h1>We turn ideas into digital experiences.</h1>
 
         <p>
