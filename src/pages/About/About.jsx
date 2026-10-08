@@ -1,6 +1,6 @@
 import styles from "./About.module.css";
 
-// About
+// About Component
 function About() {
   return (
     <section className={styles.page}>
