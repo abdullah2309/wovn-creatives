@@ -4,7 +4,7 @@ import { useLocation } from "react-router-dom";
 function useScrollToTop() {
   const { pathname } = useLocation();
 
-  useEffect((e) => {
+  useEffect(() => {
     window.scrollTo({
       top: 0,
       behavior: "smooth",
