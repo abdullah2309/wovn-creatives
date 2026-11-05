@@ -6,6 +6,7 @@ function Home() {
     <section className={styles.hero}>
       <div className={styles.container}>
         <div className={styles.content}>
+          {/* Creative Digital Studio */}
           <span className={styles.badge}>
             Creative Digital Studio
           </span>
