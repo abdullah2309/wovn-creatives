@@ -3,7 +3,7 @@ import styles from "./Home.module.css";
 
 function Home() {
   return (
-    <section className={styles.hero}>
+    <section className={styles.hero}> 
       <div className={styles.container}>
         <div className={styles.content}>
           {/* Creative Digital Studio */}
